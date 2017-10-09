@@ -8,9 +8,9 @@ function goQuery(){
   $('button').on('click', buttonClicked);
 }
 //universal variable
-var buttonCounter;
+var buttonCounter = 0;
 //function to count button clicks & create divs
 function buttonClicked(){
   buttonCounter += 1;
-  $('divplace').append('<div><p>'+ buttonCounter + '</p></div>');
+  $('#divplace').append('<div><p>'+ buttonCounter + '</br> </br><button id="swap">Swap</button><button id="delete">Delete</button></p></div>');
 }
