@@ -11,6 +11,6 @@
 
 [x]Inside the <div> element you created in step two, append two <button> elements. The text of the two buttons should read "Swap" and "Delete".
 
-[]In a CSS file, any <div> created using the "Generate" button should have a Red background-color.Clicking a "Swap" <button> should change its parent background-color from Red to Yellow
+[x]In a CSS file, any <div> created using the "Generate" button should have a Red background-color.Clicking a "Swap" <button> should change its parent background-color from Red to Yellow
 
-[]Clicking a "Delete" <button> should remove its parent <div> container (and all of its contents).
+[x]Clicking a "Delete" <button> should remove its parent <div> container (and all of its contents).

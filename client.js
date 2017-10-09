@@ -22,6 +22,7 @@ function swapButton(e){
 $($targetDiv).toggleClass('yellow');
 }
 
-function deleteButton(){
-
+function deleteButton(e){
+ var $targetDiv = $(e.target).parent();
+ $($targetDiv).parent().remove();
 }
